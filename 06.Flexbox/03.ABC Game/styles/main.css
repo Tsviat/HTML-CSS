@@ -1,0 +1,59 @@
+html
+{
+    font-family: Helvetica, sans-serif;
+}
+
+.container
+{
+
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 15vw;
+    height: 35rem;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.container span
+{
+    font-size: 20px;
+    flex-basis: 10%;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 60px;
+}
+
+.item2
+{
+    order: 1;
+}
+.item12
+{
+    order: 2;
+}
+.item4
+{
+    order: 3;
+}
+.item8
+{
+    order: 4;
+}
+.item9
+{
+    order: 5;
+}
+.item6
+{
+    order: 6;
+}
+.item5
+{
+    order: 7;
+}
+
+.item1, .item3, .item7, .item10
+{
+    order: 8;
+}
+

@@ -1,0 +1,42 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    width: 100vw;
+    padding: 20px 50px;
+}
+body header
+{
+    display: flex;
+    border-bottom: 2px solid rgb(0,0,0);
+    margin-bottom: 15px;
+    align-items: start;
+    font-size: 26px;
+}
+
+nav
+{
+    margin-left: auto;
+}
+
+ul
+{
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    font-size: 14px;
+}
+
+a
+{
+    color: rgb(0,153,0);
+    text-decoration: none;
+    
+}
+
+h2
+{
+    margin-bottom: 15px;
+}

@@ -1,0 +1,44 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    
+}
+
+footer
+{
+    color: rgb(255, 255, 255);
+    background-color: rgb(102, 102, 102);
+    position: sticky;
+    align-items: end;
+    flex-shrink: 0;
+}
+footer p
+{
+    padding: 20px;
+}
+
+header
+{
+    border-bottom: 2px solid black;
+}
+h1
+{
+    padding: 20px;
+}
+
+main
+{
+    padding: 20px;
+    /* margin: 20px 0px; */
+    flex: 1 0 auto;
+}

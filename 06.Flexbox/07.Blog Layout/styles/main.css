@@ -1,0 +1,105 @@
+body
+{
+    background-color: rgb(238, 238, 238);
+    padding: 50px 100px;
+    font-size: 18px;
+}
+
+main
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: start;  
+}
+
+img
+{
+    background-color: rgb(255, 255, 255);
+}
+
+header p, h1, h2
+{
+    font-family: Georgia, serif;
+}
+
+h1, h2
+{
+    margin-bottom: 20px;
+}
+
+blockquote
+{
+    font-family: Georgia, serif;
+    font-style: italic;
+    float: right;
+    display: inline;
+    width: 25vw;
+    border-left: 5px solid lightgray;
+    padding-left: 20px;
+    margin: 5px 10px;
+    
+}
+
+a
+{
+    color: rgb(0, 153, 0);
+}
+
+li
+{
+    list-style-type: square;
+}
+
+header
+{
+    font-size: 36px;
+    border-bottom: 2px solid black;
+}
+
+.page
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 65vw;
+    padding: 20px 0px;
+}
+
+aside
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 20px 60px;
+}
+
+.img1
+{
+    float: right;
+    margin-left: 20px;
+}
+
+.img2
+{
+    float: left;
+    margin-right: 20px;
+}
+
+.img1, .img2
+{
+    padding: 5px;
+    border: 5px solid black;
+    box-shadow: rgba(0, 0, 0, 0.25);
+}
+
+p
+{
+    margin-bottom: 15px;
+}
+
+blockquote p:nth-child(2)
+{
+    text-align: right;
+}
+
+
+

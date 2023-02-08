@@ -1,0 +1,31 @@
+body
+{
+    background-color: #EEE;
+    padding: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container
+{
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 0.4rem;
+    columns: #000;
+    margin: 10px;
+    box-shadow: 1px 1px 5px rgb(122, 121, 121);
+}
+.head, .footer
+{
+    flex-basis: 100%;
+}
+
+.main
+{
+    flex: 8 1 40rem;
+}
+.aside
+{
+    flex: 2 1 20rem;
+}
+

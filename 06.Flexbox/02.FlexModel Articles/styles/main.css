@@ -1,0 +1,23 @@
+body
+{
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5rem;
+}
+
+.container
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 50px 100px;
+}
+
+section
+{
+    max-width: 70vw;
+}
+
+h2
+{
+    margin-bottom: 20px;
+}
